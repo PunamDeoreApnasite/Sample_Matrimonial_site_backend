@@ -1,0 +1,184 @@
+/** 
+* Paste one or more documents here
+*/
+{
+  "name": "issueCertificateForm",
+  "userId": {
+    "$oid": "6412b216d00e6d359a979cfe"
+  },
+  "companyId": {
+    "$oid": "63e35df9b167add95411e25c"
+  },
+  "relatedTo": "issue-certificates",
+  "appliedTo": "issue-certificates",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "externalApiEndpoint": "",
+  "externalApiCredentials": {},
+  "formFields": [
+    {
+      "fieldGroupClassName": "row",
+      "fieldGroup": [
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": false,
+            "label": "URL",
+            "placeholder": "Enter URL"
+          },
+          "key": "url",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Candidate ID",
+            "placeholder": "Enter Candidate ID"
+          },
+          "key": "candidateId",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Certificate ID",
+            "placeholder": "Enter Certificate ID"
+          },
+          "key": "certificateId",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Name",
+            "placeholder": "Enter Name"
+          },
+          "key": "name",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Candidate Belongs To",
+            "placeholder": "Enter Candidate Belongs To"
+          },
+          "key": "candidateBelongsTo",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Certificate Date",
+            "placeholder": "Enter Certificate Date"
+          },
+          "key": "certificateDate",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Proficiency",
+            "placeholder": "Enter Proficiency"
+          },
+          "key": "proficiency",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Grade",
+            "placeholder": "Enter Grade"
+          },
+          "key": "grade",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Certificate For",
+            "placeholder": "Enter Certificate For"
+          },
+          "key": "certificateFor",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Start Date",
+            "placeholder": "Enter Start Date"
+          },
+          "key": "startDate",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "End Date",
+            "placeholder": "Enter End Date"
+          },
+          "key": "endDate",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Place",
+            "placeholder": "Enter Place"
+          },
+          "key": "place",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Config",
+            "placeholder": "Enter Config"
+          },
+          "key": "config",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Remark",
+            "placeholder": "Enter Remark"
+          },
+          "key": "remark",
+          "className": "col-6"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "templateOptions": {
+        "btnType": "primary",
+        "type": "submit",
+        "text": "Submit"
+      },
+      "key": "submitButton",
+      "className": "col-6"
+    }
+  ],
+  "formData": {},
+  "created": {
+    "$date": "2024-05-08T08:36:30.716Z"
+  },
+  "modified": {
+    "$date": "2024-05-09T12:33:29.640Z"
+  }
+}

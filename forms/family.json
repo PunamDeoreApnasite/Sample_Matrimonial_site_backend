@@ -1,0 +1,193 @@
+{
+  "name": "Bride/groom Family Details",
+  "userId": "6412b216d00e6d359a979cfe",
+  "companyId": "63e35df9b167add95411e25c",
+  "relatedTo": " ",
+  "appliedTo": " ",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "externalApiEndpoint": "",
+  "externalApiCredentials": {},
+  "formFields": [
+    {
+      "fieldGroupClassName": "row",
+      "fieldGroup": [
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Father's Name",
+            "placeholder": "Enter Father's Name"
+          },
+          "key": "fatherName",
+          "className": "col-6"
+        },
+        {
+          "type": "select",
+          "templateOptions": {
+            "required": true,
+            "label": "Father's Status",
+            "options": [
+              { "label": "Alive", "value": "alive" },
+              { "label": "Deceased", "value": "deceased" }
+            ]
+          },
+          "key": "fatherStatus",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Father's Occupation",
+            "placeholder": "Enter Father's Occupation"
+          },
+          "key": "fatherOccupation",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Mother's Name",
+            "placeholder": "Enter Mother's Name"
+          },
+          "key": "motherName",
+          "className": "col-6"
+        },
+        {
+          "type": "select",
+          "templateOptions": {
+            "required": true,
+            "label": "Mother's Status",
+            "options": [
+              { "label": "Alive", "value": "alive" },
+              { "label": "Deceased", "value": "deceased" }
+            ]
+          },
+          "key": "motherStatus",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Mother's Occupation",
+            "placeholder": "Enter Mother's Occupation"
+          },
+          "key": "motherOccupation",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Number of Brothers",
+            "placeholder": "Enter Number of Brothers"
+          },
+          "key": "numberOfBrothers",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Number of Brothers Married",
+            "placeholder": "Enter Number of Brothers Married"
+          },
+          "key": "numberOfBrothersMarried",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Number of Sisters",
+            "placeholder": "Enter Number of Sisters"
+          },
+          "key": "numberOfSisters",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Number of Sisters Married",
+            "placeholder": "Enter Number of Sisters Married"
+          },
+          "key": "numberOfSistersMarried",
+          "className": "col-6"
+        },
+        {
+          "type": "repeat",
+          "key": "siblings",
+          "templateOptions": {
+            "addText": "Add Sibling"
+          },
+          "fieldArray": {
+            "fieldGroup": [
+              {
+                "type": "input",
+                "templateOptions": {
+                  "required": true,
+                  "label": "Sibling's Name",
+                  "placeholder": "Enter Sibling's Name"
+                },
+                "key": "siblingName",
+                "className": "col-4"
+              },
+              {
+                "type": "input",
+                "templateOptions": {
+                  "required": true,
+                  "label": "Sibling's Occupation",
+                  "placeholder": "Enter Sibling's Occupation"
+                },
+                "key": "siblingOccupation",
+                "className": "col-4"
+              },
+              {
+                "type": "select",
+                "templateOptions": {
+                  "required": true,
+                  "label": "Sibling's Marital Status",
+                  "options": [
+                    { "label": "Married", "value": "married" },
+                    { "label": "Unmarried", "value": "unmarried" }
+                  ]
+                },
+                "key": "siblingMaritalStatus",
+                "className": "col-4"
+              },
+              {
+                "type": "input",
+                "templateOptions": {
+                  "required": true,
+                  "label": "Sibling's Location",
+                  "placeholder": "Enter Sibling's Location"
+                },
+                "key": "siblingLocation",
+                "className": "col-4"
+              }
+            ]
+          }
+        },
+        {
+          "type": "button",
+          "templateOptions": {
+            "btnType": "primary",
+            "type": "submit",
+            "text": "Continue"
+          },
+          "key": "continueButton",
+          "className": "col-12"
+        }
+      ]
+    }
+  ],
+  "formData": {},
+  "created": "2024-05-08T08:36:30.716Z",
+  "modified": "2024-05-09T12:33:29.640Z"
+}

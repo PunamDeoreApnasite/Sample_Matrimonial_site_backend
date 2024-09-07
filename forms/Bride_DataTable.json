@@ -1,0 +1,269 @@
+{
+  "name": "Marriage aspirants Information",
+  "userId": "665ff7a44528178d27109643",
+  "companyId": "665ff0904528178d27109639",
+  "relatedTo": "",
+  "appliedTo": "",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "columnDefs": [
+    {
+      "title": "Full Name",
+      "field": "fullName",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Email ID",
+      "field": "emailId",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Mobile Number",
+      "field": "mobileNumber",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Address",
+      "field": "address",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Photo",
+      "field": "photo",
+      "isSort": false,
+      "isFilter": false,
+      "filterType": "",
+      "template": [
+        {
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "title": "Gender",
+      "field": "gender",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Marital Status",
+      "field": "maritalStatus",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Date of Birth",
+      "field": "dateOfBirth",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "date"
+    },
+    {
+      "title": "Birth Place",
+      "field": "birthPlace",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Mother Tongue",
+      "field": "motherTongue",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Qualification",
+      "field": "qualification",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Work",
+      "field": "work",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Income",
+      "field": "income",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Location",
+      "field": "location",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Height",
+      "field": "height",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Weight",
+      "field": "weight",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Blood Group",
+      "field": "bloodGroup",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Color",
+      "field": "color",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Father's Name",
+      "field": "fatherName",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Father's Status",
+      "field": "fatherStatus",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Father's Occupation",
+      "field": "fatherOccupation",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Mother's Name",
+      "field": "motherName",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Mother's Status",
+      "field": "motherStatus",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Mother's Occupation",
+      "field": "motherOccupation",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Number of Brothers",
+      "field": "numberOfBrothers",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Number of Brothers Married",
+      "field": "numberOfBrothersMarried",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Number of Sisters",
+      "field": "numberOfSisters",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Number of Sisters Married",
+      "field": "numberOfSistersMarried",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Sibling's Name",
+      "field": "siblings.siblingName",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Sibling's Occupation",
+      "field": "siblings.siblingOccupation",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Sibling's Marital Status",
+      "field": "siblings.siblingMaritalStatus",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Sibling's Location",
+      "field": "siblings.siblingLocation",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Action",
+      "isSort": false,
+      "isFilter": false,
+      "filterType": "",
+      "template": [
+        {
+          "type": "edit",
+          "icon": "pencil",
+          "class": "btn btn-info"
+        },
+        {
+          "type": "view",
+          "icon": "eye",
+          "class": "btn btn-primary"
+        },
+        {
+          "type": "delete",
+          "icon": "trash",
+          "class": "btn btn-danger"
+        }
+      ]
+    }
+  ],
+  "created": "2024-05-10T04:45:50.857Z",
+  "modified": "2024-05-10T04:45:50.857Z",
+  "dataParams": {},
+  "config": {}
+}

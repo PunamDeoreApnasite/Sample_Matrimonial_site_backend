@@ -1,0 +1,74 @@
+{
+  "name": "Bride/groom Contact Details",
+  "userId": "665ff7a44528178d27109643",
+  "companyId": "665ff0904528178d27109639",
+  "relatedTo": " ",
+  "appliedTo": " ",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "externalApiEndpoint": "",
+  "externalApiCredentials": {},
+  "formFields": [
+    {
+      "fieldGroupClassName": "row",
+      "fieldGroup": [
+      {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Full Name",
+            "placeholder": "Enter Full Name"
+          },
+          "key": "fullName",
+          "className": "col-6"
+        },
+
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Email ID",
+            "placeholder": "Enter Email ID"
+          },
+          "key": "emailId",
+          "className": "col-3"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Mobile Number",
+            "placeholder": "Enter Mobile Number"
+          },
+          "key": "mobileNumber",
+          "className": "col-3"
+        },
+   {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Address",
+            "placeholder": "Enter Address"
+          },
+          "key": "address",
+          "className": "col-3"
+        },
+        {
+          "type": "button",
+          "templateOptions": {
+            "btnType": "primary",
+            "type": "submit",
+            "text": "Continue"
+          },
+          "key": "continueButton",
+          "className": "col-3"
+        }
+      ]
+    }
+  ],
+  "formData": {},
+  "created": "2024-05-08T08:36:30.716Z",
+  "modified": "2024-05-09T12:33:29.640Z"
+}

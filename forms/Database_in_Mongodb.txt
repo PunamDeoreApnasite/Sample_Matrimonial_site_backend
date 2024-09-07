@@ -1,0 +1,161 @@
+
+ 1. User Collection
+
+{
+  "id": "ObjectId",
+  "companyid": "ObjectId",
+  "userid": "ObjectId",
+  "config": "String",
+  "created": "Date",
+  "modified": "Date",
+  "status": "String"
+}
+
+
+ 2. User Signup Collection
+
+{
+  "email_or_mobile": "String",
+  "password": "String",
+  "confirm_password": "String"
+}
+```
+
+ 3. User Login Collection
+
+{
+  "email_or_mobile": "String",
+  "password": "String"
+}
+```
+
+ 4. Bride Collection
+
+{
+  "ContactDetails": {
+    "fullName": "String",
+    "emailId": "String",
+    "mobileNumber": "String",
+    "address": "String"
+  },
+  "BasicDetails": {
+    "photo": "String",
+    "gender": "String",
+    "maritalStatus": "String",
+    "dateOfBirth": "Date",
+    "birthPlace": "String",
+    "motherTongue": "String"
+  },
+  "EducationalDetails": {
+    "qualification": ["String"],
+    "work": ["String"],
+    "income": "String",
+    "location": "String"
+  },
+  "PhysicalDetails": {
+    "height": "String",
+    "weight": "String",
+    "bloodGroup": "String",
+    "color": "String"
+  },
+  "FamilyDetails": {
+    "fatherName": "String",
+    "fatherStatus": "String",
+    "fatherOccupation": "String",
+    "motherName": "String",
+    "motherStatus": "String",
+    "motherOccupation": "String",
+    "numberOfBrothers": "String",
+    "numberOfBrothersMarried": "String",
+    "numberOfSisters": "String",
+    "numberOfSistersMarried": "String",
+    "siblings": [
+      {
+        "siblingName": "String",
+        "siblingOccupation": "String",
+        "siblingMaritalStatus": "String",
+        "siblingLocation": "String"
+      }
+    ]
+  }
+}
+```
+
+ 5. Groom Collection
+
+{
+  "ContactDetails": {
+    "fullName": "String",
+    "emailId": "String",
+    "mobileNumber": "String",
+    "address": "String"
+  },
+  "BasicDetails": {
+    "photo": "String",
+    "gender": "String",
+    "maritalStatus": "String",
+    "dateOfBirth": "Date",
+    "birthPlace": "String",
+    "motherTongue": "String"
+  },
+  "EducationalDetails": {
+    "qualification": ["String"],
+    "work": ["String"],
+    "income": "String",
+    "location": "String"
+  },
+  "PhysicalDetails": {
+    "height": "String",
+    "weight": "String",
+    "bloodGroup": "String",
+    "color": "String"
+  },
+  "FamilyDetails": {
+    "fatherName": "String",
+    "fatherStatus": "String",
+    "fatherOccupation": "String",
+    "motherName": "String",
+    "motherStatus": "String",
+    "motherOccupation": "String",
+    "numberOfBrothers": "String",
+    "numberOfBrothersMarried": "String",
+    "numberOfSisters": "String",
+    "numberOfSistersMarried": "String",
+    "siblings": [
+      {
+        "siblingName": "String",
+        "siblingOccupation": "String",
+        "siblingMaritalStatus": "String",
+        "siblingLocation": "String"
+      }
+    ]
+  }
+}
+
+
+ 6. Vendor Collection
+
+{
+  "VendorPersonalDetails": {
+    "address": "String",
+    "emailId": "String",
+    "mobileNumber": "String",
+    "photo": "String",
+    "fullName": "String",
+    "gender": "String",
+    "maritalStatus": "String",
+    "dateOfBirth": "Date"
+  },
+  "VendorCommunityDetails": {
+    "communityName": "String",
+    "communityDetails": "String",
+    "communityAddress": "String",
+    "communityStartDate": "Date",
+    "communityContactNumber": "String",
+    "communityWebsite": "String",
+    "communityMailId": "String",
+    "communityFax": "String"
+  }
+}
+
+

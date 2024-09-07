@@ -1,0 +1,82 @@
+{
+  "name": "Bride/groom Physical Details",
+ "userId": "665ff7a44528178d27109643",
+  "companyId": "665ff0904528178d27109639",
+  "relatedTo": " ",
+  "appliedTo": " ",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "externalApiEndpoint": "",
+  "externalApiCredentials": {},
+  "formFields": [
+    {
+      "fieldGroupClassName": "row",
+      "fieldGroup": [
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Height",
+            "placeholder": "Enter Height"
+          },
+          "key": "height",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Weight",
+            "placeholder": "Enter Weight"
+          },
+          "key": "weight",
+          "className": "col-6"
+        },
+        {
+          "type": "select",
+          "templateOptions": {
+            "required": true,
+            "label": "Blood Group",
+            "options": [
+              { "label": "A+", "value": "A+" },
+              { "label": "A-", "value": "A-" },
+              { "label": "B+", "value": "B+" },
+              { "label": "B-", "value": "B-" },
+              { "label": "O+", "value": "O+" },
+              { "label": "O-", "value": "O-" },
+              { "label": "AB+", "value": "AB+" },
+              { "label": "AB-", "value": "AB-" }
+            ]
+          },
+          "key": "bloodGroup",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Color",
+            "placeholder": "Enter Color"
+          },
+          "key": "color",
+          "className": "col-6"
+        },
+        {
+          "type": "button",
+          "templateOptions": {
+            "btnType": "primary",
+            "type": "submit",
+            "text": "Continue"
+          },
+          "key": "continueButton",
+          "className": "col-12"
+        }
+      ]
+    }
+  ],
+  "formData": {},
+  "created": "2024-05-08T08:36:30.716Z",
+  "modified": "2024-05-09T12:33:29.640Z"
+}

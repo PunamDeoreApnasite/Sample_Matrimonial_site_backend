@@ -1,0 +1,114 @@
+{
+  "name": "Vendor Community Details",
+   "userId": "665ff7a44528178d27109643",
+  "companyId": "665ff0904528178d27109639",
+  "relatedTo": " ",
+  "appliedTo": " ",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "externalApiEndpoint": "",
+  "externalApiCredentials": {},
+  "formFields": [
+    {
+      "fieldGroupClassName": "row",
+      "fieldGroup": [
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Community Name",
+            "placeholder": "Enter Community Name"
+          },
+          "key": "communityName",
+          "className": "col-6"
+        },
+        {
+          "type": "textarea",
+          "templateOptions": {
+            "required": true,
+            "label": "Community Details",
+            "placeholder": "Enter Community Details"
+          },
+          "key": "communityDetails",
+          "className": "col-12"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Community Address",
+            "placeholder": "Enter Community Address"
+          },
+          "key": "communityAddress",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Community Start Date",
+            "placeholder": "Enter Community Start Date",
+            "type": "date"
+          },
+          "key": "communityStartDate",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Community Contact Number",
+            "placeholder": "Enter Community Contact Number"
+          },
+          "key": "communityContactNumber",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Community Website",
+            "placeholder": "Enter Community Website"
+          },
+          "key": "communityWebsite",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Community Email ID",
+            "placeholder": "Enter Community Email ID"
+          },
+          "key": "communityMailId",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Community Fax",
+            "placeholder": "Enter Community Fax"
+          },
+          "key": "communityFax",
+          "className": "col-6"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "templateOptions": {
+        "btnType": "primary",
+        "type": "submit",
+        "text": "Submit"
+      },
+      "key": "submitButton",
+      "className": "col-12"
+    }
+  ],
+  "formData": {},
+  "created": "2024-05-08T08:36:30.716Z",
+  "modified": "2024-05-09T12:33:29.640Z"
+}

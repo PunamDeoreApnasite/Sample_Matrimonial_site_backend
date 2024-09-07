@@ -1,0 +1,158 @@
+{
+  "name": "Vendor Information",
+  "userId": "665ff7a44528178d27109643",
+  "companyId": "665ff0904528178d27109639",
+  "relatedTo": "/marriage-aspirants",
+  "appliedTo": "/marriage-aspirants",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "columnDefs": [
+    {
+      "title": "Full Name",
+      "field": "fullName",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Email ID",
+      "field": "emailId",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Mobile Number",
+      "field": "mobileNumber",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Address",
+      "field": "address",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Photo",
+      "field": "photo",
+      "isSort": false,
+      "isFilter": false,
+      "filterType": "",
+      "template": [
+        {
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "title": "Gender",
+      "field": "gender",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Marital Status",
+      "field": "maritalStatus",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Date of Birth",
+      "field": "dateOfBirth",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "date"
+    },
+    {
+      "title": "Community Name",
+      "field": "communityName",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Community Details",
+      "field": "communityDetails",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Community Address",
+      "field": "communityAddress",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Community Start Date",
+      "field": "communityStartDate",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "date"
+    },
+    {
+      "title": "Community Contact Number",
+      "field": "communityContactNumber",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Community Website",
+      "field": "communityWebsite",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Community Mail ID",
+      "field": "communityMailId",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Community Fax",
+      "field": "communityFax",
+      "isSort": true,
+      "isFilter": true,
+      "filterType": "text"
+    },
+    {
+      "title": "Action",
+      "isSort": false,
+      "isFilter": false,
+      "filterType": "",
+      "template": [
+        {
+          "type": "edit",
+          "icon": "pencil",
+          "class": "btn btn-info",
+          "formId": ""
+        },
+        {
+          "type": "view",
+          "icon": "eye",
+          "class": "btn btn-primary"
+        },
+        {
+          "type": "delete",
+          "icon": "trash",
+          "class": "btn btn-danger"
+        }
+      ]
+    }
+  ],
+  "created": "2024-05-10T04:45:50.857Z",
+  "modified": "2024-05-10T04:45:50.857Z",
+  "dataParams": {},
+  "config": {}
+}

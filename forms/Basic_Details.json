@@ -1,0 +1,104 @@
+{
+  "name": "Bride/groom Basic Details",
+  "userId": "6412b216d00e6d359a979cfe"
+  "companyId": "63e35df9b167add95411e25c",
+  "relatedTo": " ",
+  "appliedTo": " ",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "externalApiEndpoint": "",
+  "externalApiCredentials": {},
+  "formFields": [
+    {
+      "fieldGroupClassName": "row",
+      "fieldGroup": [
+        {
+          "type": "file",
+          "templateOptions": {
+            "required": true,
+            "label": "Photo",
+            "accept": "image/*"
+          },
+          "key": "photo",
+          "className": "col-6"
+        },
+       
+        {
+          "type": "select",
+          "templateOptions": {
+            "required": true,
+            "label": "Gender",
+            "options": [
+              { "label": "Male", "value": "male" },
+              { "label": "Female", "value": "female" },
+              { "label": "Other", "value": "other" }
+            ]
+          },
+          "key": "gender",
+          "className": "col-6"
+        },
+        {
+          "type": "select",
+          "templateOptions": {
+            "required": true,
+            "label": "Marital Status",
+            "options": [
+              { "label": "Single", "value": "single" },
+              { "label": "Married", "value": "married" },
+              { "label": "Divorced", "value": "divorced" },
+              { "label": "Widowed", "value": "widowed" }
+            ]
+          },
+          "key": "maritalStatus",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Date of Birth",
+            "placeholder": "Enter Date of Birth",
+            "type": "date"
+          },
+          "key": "dateOfBirth",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Birth Place",
+            "placeholder": "Enter Birth Place"
+          },
+          "key": "birthPlace",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Mother Tongue",
+            "placeholder": "Enter Mother Tongue"
+          },
+          "key": "motherTongue",
+          "className": "col-6"
+        },
+        {
+          "type": "button",
+          "templateOptions": {
+            "btnType": "primary",
+            "type": "submit",
+            "text": "Continue"
+          },
+          "key": "continueButton",
+          "className": "col-6"
+        }
+      ]
+    }
+  ],
+  "formData": {},
+  "created": "2024-05-08T08:36:30.716Z",
+  "modified": "2024-05-09T12:33:29.640Z"
+}

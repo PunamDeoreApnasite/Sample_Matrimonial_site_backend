@@ -1,0 +1,44 @@
+
+{
+  "name": "issueCertificateForm",
+  "userId":" ",
+  "companyId": " ",
+  "relatedTo": " ",
+  "appliedTo": " ",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "externalApiEndpoint": "",
+  "externalApiCredentials": {},
+  "formFields": [
+    {
+      "fieldGroupClassName": "row",
+      "fieldGroup": [
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": false,
+            "label": "URL",
+            "placeholder": "Enter URL"
+          },
+          "key": "url",
+          "className": "col-6"
+        },]
+           {
+      "type": "button",
+      "templateOptions": {
+        "btnType": "primary",
+        "type": "submit",
+        "text": "Submit"
+      },
+      "key": "submitButton",
+      "className": "col-6"
+    }
+  ],
+  "formData": {},
+  "created":  "2024-05-08T08:36:30.716Z"
+,
+  "modified": "2024-05-09T12:33:29.640Z"
+  
+}

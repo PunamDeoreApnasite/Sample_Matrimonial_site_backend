@@ -1,0 +1,115 @@
+{
+  "name": "Bride/groom Educational Details",
+  "userId": "665ff7a44528178d27109643",
+  "companyId": "665ff0904528178d27109639",
+  "relatedTo": " ",
+  "appliedTo": " ",
+  "type": "StandAlone",
+  "isActionLibraryRequired": false,
+  "actionLibrary": [],
+  "isExternalApi": false,
+  "externalApiEndpoint": "",
+  "externalApiCredentials": {},
+  "formFields": [
+    {
+      "fieldGroupClassName": "row",
+      "fieldGroup": [
+        {
+          "type": "multicheckbox",
+          "templateOptions": {
+            "required": true,
+            "label": "Qualification",
+            "options": [
+              { "label": "High School", "value": "highSchool" },
+              {
+                "label": "Bachelor's Degree",
+                "group": [
+                  { "label": "B.E. (Mechanical Engineering)", "value": "beMechanical" },
+                  { "label": "B.E. (Computer Science)", "value": "beCS" },
+                  { "label": "B.Tech (Information Technology)", "value": "btechIT" },
+                  { "label": "B.Tech (Electronics)", "value": "btechElectronics" },
+                  { "label": "B.Sc (Physics)", "value": "bscPhysics" },
+                  { "label": "B.Sc (Chemistry)", "value": "bscChemistry" },
+                  { "label": "BCA (Computer Applications)", "value": "bca" }
+                ]
+              },
+              {
+                "label": "Master's Degree",
+                "group": [
+                  { "label": "M.E. (Mechanical Engineering)", "value": "meMechanical" },
+                  { "label": "M.E. (Computer Science)", "value": "meCS" },
+                  { "label": "M.Tech (Information Technology)", "value": "mtechIT" },
+                  { "label": "M.Tech (Electronics)", "value": "mtechElectronics" },
+                  { "label": "M.Sc (Physics)", "value": "mscPhysics" },
+                  { "label": "M.Sc (Chemistry)", "value": "mscChemistry" },
+                  { "label": "MCA (Computer Applications)", "value": "mca" }
+                ]
+              },
+              {
+                "label": "Diploma",
+                "group": [
+                  { "label": "Diploma (Mechanical Engineering)", "value": "diplomaMechanical" },
+                  { "label": "Diploma (Computer Science)", "value": "diplomaCS" },
+                  { "label": "Diploma (Information Technology)", "value": "diplomaIT" },
+                  { "label": "Diploma (Electronics)", "value": "diplomaElectronics" }
+                ]
+              },
+              { "label": "PhD", "value": "phd" }
+            ]
+          },
+          "key": "qualification",
+          "className": "col-6"
+        },
+        {
+          "type": "multicheckbox",
+          "templateOptions": {
+            "required": true,
+            "label": "Work",
+            "options": [
+              { "label": "Engineer", "value": "engineer" },
+              { "label": "Doctor", "value": "doctor" },
+              { "label": "Teacher", "value": "teacher" },
+ 	      { "label": "Farmer", "value": "Farmer" },
+              { "label": "Other", "value": "other" }
+            ]
+          },
+          "key": "work",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Income",
+            "placeholder": "Enter Income"
+          },
+          "key": "income",
+          "className": "col-6"
+        },
+        {
+          "type": "input",
+          "templateOptions": {
+            "required": true,
+            "label": "Location",
+            "placeholder": "Enter Location"
+          },
+          "key": "location",
+          "className": "col-6"
+        },
+        {
+          "type": "button",
+          "templateOptions": {
+            "btnType": "primary",
+            "type": "submit",
+            "text": "Continue"
+          },
+          "key": "continueButton",
+          "className": "col-12"
+        }
+      ]
+    }
+  ],
+  "formData": {},
+  "created": "2024-05-08T08:36:30.716Z",
+  "modified": "2024-05-09T12:33:29.640Z"
+}

@@ -1,0 +1,137 @@
+Below are SQL statements to create the necessary tables for your database. This includes tables for users, user signup, user login, brides, grooms, and vendors. Each table is designed to store the required fields and relationships.
+
+ 1. User Table
+
+CREATE TABLE Users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    companyid INT NOT NULL,
+    userid INT NOT NULL,
+    config VARCHAR(255),
+    created DATE,
+    modified DATE,
+    status VARCHAR(50)
+);
+
+
+ 2. User Signup Table
+CREATE TABLE UserSignup (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email_or_mobile VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    confirm_password VARCHAR(255) NOT NULL
+);
+
+
+ 3. User Login Table
+
+CREATE TABLE UserLogin (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email_or_mobile VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+
+ 4. Bride Table
+CREATE TABLE Bride (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fullName VARCHAR(255),
+    emailId VARCHAR(255),
+    mobileNumber VARCHAR(50),
+    address VARCHAR(255),
+    photo VARCHAR(255),
+    gender VARCHAR(50),
+    maritalStatus VARCHAR(50),
+    dateOfBirth DATE,
+    birthPlace VARCHAR(255),
+    motherTongue VARCHAR(255),
+    qualification JSON,
+    work JSON,
+    income VARCHAR(50),
+    location VARCHAR(255),
+    height VARCHAR(50),
+    weight VARCHAR(50),
+    bloodGroup VARCHAR(50),
+    color VARCHAR(50),
+    fatherName VARCHAR(255),
+    fatherStatus VARCHAR(50),
+    fatherOccupation VARCHAR(255),
+    motherName VARCHAR(255),
+    motherStatus VARCHAR(50),
+    motherOccupation VARCHAR(255),
+    numberOfBrothers VARCHAR(50),
+    numberOfBrothersMarried VARCHAR(50),
+    numberOfSisters VARCHAR(50),
+    numberOfSistersMarried VARCHAR(50),
+    siblings JSON
+);
+siblings JSON{
+"siblingName": "String",
+        "siblingOccupation": "String",
+        "siblingMaritalStatus": "String",
+        "siblingLocation": "String"
+
+}
+
+ 5. Groom Table
+CREATE TABLE Groom (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fullName VARCHAR(255),
+    emailId VARCHAR(255),
+    mobileNumber VARCHAR(50),
+    address VARCHAR(255),
+    photo VARCHAR(255),
+    gender VARCHAR(50),
+    maritalStatus VARCHAR(50),
+    dateOfBirth DATE,
+    birthPlace VARCHAR(255),
+    motherTongue VARCHAR(255),
+    qualification JSON,
+    work JSON,
+    income VARCHAR(50),
+    location VARCHAR(255),
+    height VARCHAR(50),
+    weight VARCHAR(50),
+    bloodGroup VARCHAR(50),
+    color VARCHAR(50),
+    fatherName VARCHAR(255),
+    fatherStatus VARCHAR(50),
+    fatherOccupation VARCHAR(255),
+    motherName VARCHAR(255),
+    motherStatus VARCHAR(50),
+    motherOccupation VARCHAR(255),
+    numberOfBrothers VARCHAR(50),
+    numberOfBrothersMarried VARCHAR(50),
+    numberOfSisters VARCHAR(50),
+    numberOfSistersMarried VARCHAR(50),
+    siblings JSON
+);
+siblings JSON{
+	"siblingName": "String",
+        "siblingOccupation": "String",
+        "siblingMaritalStatus": "String",
+        "siblingLocation": "String"
+
+}
+
+ 6. Vendor Table
+CREATE TABLE Vendor (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    address VARCHAR(255),
+    emailId VARCHAR(255),
+    mobileNumber VARCHAR(50),
+    photo VARCHAR(255),
+    fullName VARCHAR(255),
+    gender VARCHAR(50),
+    maritalStatus VARCHAR(50),
+    dateOfBirth DATE,
+    communityName VARCHAR(255),
+    communityDetails TEXT,
+    communityAddress VARCHAR(255),
+    communityStartDate DATE,
+    communityContactNumber VARCHAR(50),
+    communityWebsite VARCHAR(255),
+    communityMailId VARCHAR(255),
+    communityFax VARCHAR(50)
+);
+
+
